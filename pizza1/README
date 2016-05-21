@@ -1,0 +1,24 @@
+README for pizza1_setup
+Hopefully all the directories and filenames you need show
+up in this setup.  However the file contents need finishing.
+
+Please make sure you can run the project on topcat, because
+that's where the grader will run it.  See database.php for
+code that lets you run on topcat. Be sure to load the pizza
+database in your mysql account on topcat.
+
+This project is set up to be installed at /cs637/username/pizza1
+relative to the document root, where username is your topcat username.
+
+Under Windows XAMPP, at \xampp\htdocs\cs637\username\pizza1
+Under Mac OSX XAMPP, at /Applications/XAMPP/xampfiles/cs637/username/pizza1
+Under Linux XAMPP, at /opt/lampp/cs637/username/pizza1
+
+On topcat, at /var/www/html/cs637/username/pizza1
+You have private access to this area using UNIX file permissions,
+just as you have private access to your ~/cs637 directory area.
+
+Note that you need to edit in your topcat username in two places
+in these sources:
+1. in model/database.php
+2. in view/header.php 
